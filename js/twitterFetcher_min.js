@@ -64,6 +64,5 @@ if(showImages){arrayTweets.push(op);}else if(!showImages&&tweets[n].textContent.
 n++;}}
 handleTweets(arrayTweets);inProgress=false;if(queue.length>0){twitterFetcher.fetch(queue[0]);queue.splice(0,1);}}};window.__twttrf=twitterFetcher;window.twitterFetcher=twitterFetcher;return twitterFetcher;}));
 
-$("body").children().each(function () {
-    $(this).html( $(this).html().replace(/thoughts/g,"$") );
+
 });
