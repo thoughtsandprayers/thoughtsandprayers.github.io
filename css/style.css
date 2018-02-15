@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+    font-weight: 800;
+}
+
+html, body {
+ font-family: 'Montserrat', sans-serif;
+}
+
+
+h2 {
+  clear:both;
+  }
+
+p, a {
+ font-family: 'Montserrat', sans-serif;
+ font-size: 50px;
+ line-height: 60px;
+ color: blue;
+ }
+
+
+a, a:visited {
+  color:#000000;
+}
+
+a:hover {
+  color:#000000;
+}
+
+ul li {
+  list-style:none;
+}
+
+ul li:hover {
+}
+
+.user, .tweet, .timePosted {
+	font-weight: 600;
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+
+}
+
+.user {
+  width:50%;
+  overflow: break-word;
+  word-wrap: break-word;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.tweet {
+  width:100%;
+  margin-top: 100px;
+  hyphens: manual;
+  overflow: hidden;
+}
+
+.timePosted {
+  width:50%;
+  font-size: 35px;
+  line-height: 40px;
+  float: left;
+}
+
+.user {
+  clear:left;
+}
+
+.user a {
+ width: 100px;
+}
+
+.user span span {
+  width:100px;
+  display:block;
+ 
+}
+
+.user img,{
+ visibility: hidden;
+}
+
+.user a > span {
+  float:left;
+}
+
+.interact {
+  display: none;
+  float:left;
+  width:20%;
+  margin-top:-7px;
+}
+
+.interact a {
+  display: none;
+  float:left;
+}
+
+.user a > span {
+  margin-left:10px;
+}
+
+.tco-hidden{
+  display: none;
+}

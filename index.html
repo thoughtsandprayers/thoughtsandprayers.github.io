@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="keywords" content="Twitter API Fetcher" />
+    <meta name="" content=""/>
+    <meta http-equiv="refresh" content="90" />
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/twitterFetcher.js"></script>
+    <script type="text/javascript" src="js/emoji_replace.js"></script>
+    <script>
+    var config4 = {
+  "id": '964209573346398208',
+  "domId": 'example4',
+  "maxTweets": 1,
+  "enableLinks": false,
+  "showUser": true,
+  "showTime": true,
+  "dateFunction": dateFormatter,
+  "showRetweet": false
+
+};
+
+// For advanced example which allows you to customize how tweet time is
+// formatted you simply define a function which takes a JavaScript date as a
+// parameter and returns a string!
+// See http://www.w3schools.com/jsref/jsref_obj_date.asp for properties
+// of a Date object.
+function dateFormatter(date) {
+  return date.toTimeString();
+}
+                        
+twitterFetcher.fetch(config4);
+
+</script>
+</head>
+<body style="background-color: #f2f2f2;">
+  <div>
+    <div id="example4" style="position: absolute; margin-top: 50px; width:1400px;">
+    </div>
+    </div>
+</body>
+</html>
