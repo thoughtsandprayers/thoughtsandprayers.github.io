@@ -58,14 +58,17 @@
     } else {
       customCallbackFunction(tweets);
     }
-    document.body.innerHTML = document.body.innerHTML.replace(/thoughts/g, '\uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B');
-    document.body.innerHTML = document.body.innerHTML.replace(/Thoughts/g, '\uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B');
+    document.body.innerHTML = document.body.innerHTML.replace(/thoughts/g, '\uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B');
+    document.body.innerHTML = document.body.innerHTML.replace(/Thoughts/g, '\uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B');
+    document.body.innerHTML = document.body.innerHTML.replace(/THOUGHTS/g, '\uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B');
     document.body.innerHTML = document.body.innerHTML.replace(/prayers/g, '\uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B');
     document.body.innerHTML = document.body.innerHTML.replace(/Prayers/g, '\uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B');
-    document.body.innerHTML = document.body.innerHTML.replace(/Deepest/g, '\uD83D\uDD2B, \uD83D\uDD2B,);
-    document.body.innerHTML = document.body.innerHTML.replace(/deepest/g, '\uD83D\uDD2B, \uD83D\uDD2B,);
-    document.body.innerHTML = document.body.innerHTML.replace(/condolences/g, '\uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B');
-    document.body.innerHTML = document.body.innerHTML.replace(/Condolences/g, '\uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B');
+    document.body.innerHTML = document.body.innerHTML.replace(/PRAYERS/g, '\uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B');
+    document.body.innerHTML = document.body.innerHTML.replace(/Deepest/g, '\uD83D\uDD2B, \uD83D\uDD2B');
+    document.body.innerHTML = document.body.innerHTML.replace(/deepest/g, '\uD83D\uDD2B, \uD83D\uDD2B');
+    document.body.innerHTML = document.body.innerHTML.replace(/CONDOLENCES/g, '\uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B');
+    document.body.innerHTML = document.body.innerHTML.replace(/condolences/g, '\uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B');
+    document.body.innerHTML = document.body.innerHTML.replace(/Condolences/g, '\uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B, \uD83D\uDD2B');
   }
 
   function strip(data) {
