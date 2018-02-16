@@ -7,14 +7,14 @@ h2 {
 
 p, a {
  font-family: 'Montserrat', sans-serif;
- font-size: 5vmin;
- line-height: 6.5vmin;
- color: blue;
+ font-size: 12px;
+ line-height: 18px;
+ text-decoration:none;
  }
 
 
 a, a:visited {
-  color:#000000;
+  color:blue;
 }
 
 a:hover {
@@ -32,6 +32,7 @@ ul li:hover {
 	font-weight: 800;
 	overflow-wrap: break-word;
   	word-wrap: break-word;
+  	color: blue;
 
 }
 
@@ -47,6 +48,8 @@ ul li:hover {
   width:100%;
   hyphens: manual;
   overflow: hidden;
+  font-size: 5vmin;
+  line-height: 6.5vmin;
 }
 
 .timePosted {
@@ -96,4 +99,12 @@ ul li:hover {
 
 .tco-hidden{
   display: none;
+}
+
+#message {
+position: inherit; 
+margin-top: 50px; 
+max-width:1300px; 
+display: flex; 
+margin:30px;
 }
